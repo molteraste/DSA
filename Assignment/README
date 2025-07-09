@@ -1,0 +1,17 @@
+This program uses graphs, hash tables, heaps and linked lists in order to provide a bushfire monitoring program.
+The DSAGraph.java, DSAHeap.java, DSAHashTable.java, DSALinkedList.java files allows implementation of a graph,
+heap, hash table and a linked list respectively. The DSAGraph.java file uses a linked list through DSALinkedList.java
+to keep track of the vertices and edges of a graph while the Main.java file uses a linked list for a list of locations
+that is needed for the itinerary from Task 6 in the assignment. The Main.java file acted as a test harness for all the
+classes.
+
+The .txt files are the test data; the location.txt and UAVdata.txt files are the given files for the assignment, while
+the .txt files that have similar names but with "Smaller" or "Larger" inside are slightly modified versions of the
+given .txt files for testing with smaller and larger test data.
+
+Whenever the program asks for an input, type the input desired and press the "Enter" button after each input. The
+program, when initiated, asks the user to enter a number between 1 and 3 inclusive for the test data desired.
+After the test data is chosen the program initialises its graph, hash table and heaps according to the data in the
+.txt files and opens a menu from which each task from the assignment can be executed. Choosing an option and entering
+all the information needed for each option will execute the displayed task and will then return back to the menu for
+more testing.
